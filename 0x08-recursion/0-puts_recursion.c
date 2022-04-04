@@ -15,7 +15,13 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
+<<<<<<< HEAD
+	_putchar(*s);
+	s++;
+	_puts_recursion(s);
+=======
 
 	_putchar(s[0]);
 	_puts_recursion(s + 1);
+>>>>>>> e2be8fca857ef34a3e00b39fbc7a979da72e902a
 }
